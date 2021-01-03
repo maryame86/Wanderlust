@@ -50,7 +50,7 @@ const createVenueHTML = (name, location, iconSource, photo, vid, venueType, addr
     </tr>
   </table>
   </div>
-  <div class="w-logo"><p>Powered by &nbsp;&nbsp; <img class="logo" src="/media/OpenWeather-Logo.svg" alt="OpenWeather API"></p></div>`;               
+  <div class="w-logo"><p>Powered by &nbsp;&nbsp; <img class="logo" src="OpenWeather-Logo.svg" alt="OpenWeather API"></p></div>`;               
   }
 
   const kelvinToCelsius = k => (k - 273.15).toFixed(0);
