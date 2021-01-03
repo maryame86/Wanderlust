@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="sass/style.css" type="text/css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <title>Wanderlust!</title>
+</head>
+<body>
+<div class="container">
+
+
+<div class="inner"></div>
+
+<div class="front">
+
+    <div class="one">
+    <img src="/media/sun-logo.svg" alt="Wanderlust">
+    </div>
+
+    <div class="two">
+    <div class="input" id="the-basics">
+    <input id="city" class="typeahead" type="text" placeholder="Enter Your Destination..." autocomplete="off">
+    <button id="button" type="submit">Search</button>
+    </div>  
+    <div class="logo1"><img src="/media/powered-by-foursquare-blue.svg" alt="Powered by Foursquare" style="width: 170px;"></div>
+    </div>
+
+    <div class="citydiv">
+        <h2 id="destination"></h2>
+    </div>
+    <div class="three">
+    
+        <div class="city" id="venues">
+            <div class="rec-title"><h2>Top Recommendations</h2>
+            <div class="guide"><h4><a href="https://foursquare.com/city-guide" target="_blank" id="city-guide"><img src="/media/foursquare-icon.svg">City Guide</h4></a></div>
+            </div>
+
+            <div class="att" id="venue1"></div>
+            <div class="att" id="venue2"></div>
+            <div class="att" id="venue3"></div>
+            <div class="att" id="venue4"></div>
+        </div>
+
+        <div class="weather" id="weather1"><h3>Current Weather</h3></div>
+    
+    </div>
+    <footer>
+        <small>
+            Powered by&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://foursquare.com/">Foursquare</a>&nbsp;&nbsp;|
+            <a href="https://openweathermap.org/">OpenWeather Map</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="https://datahub.io/">Datahub</a>
+            &nbsp;&nbsp;|&nbsp;&nbsp;<a href="https://twitter.github.io/typeahead.js/">Twitter typeahead.js</a>
+        </small><br>
+
+        <small>
+            This is an adapted version of an original project by <a href="https://www.codecademy.com/">Codecademy</a>
+        </small><br>
+        
+        <small> 
+            Created with &#10084;&#65039; by Maryam Elkhalifa © 2020&nbsp;&nbsp;&nbsp;&nbsp; View on <a href="">Github</a>
+        </small>
+    </footer>
+</div>
+
+</div>
+
+<script defer src="/js/main.js"></script>
+<script defer src="/js/helper.js"></script>
+<script src="/js/city.js"></script>
+<script defer src="/js/type-ahead.js"></script>
+
+<script
+  src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+  integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs="
+  crossorigin="anonymous">
+</script>
+<script src="/js/typeahead.bundle.js"></script>
+
+</body>
+</html>
