@@ -44,7 +44,7 @@ body .container, html .container {
   display: -ms-flexbox;
   display: flex;
   z-index: 2;
-  background-image: url("/media/bluesky-bg1.jpg");
+  background-image: url("bluesky-bg1.jpg");
   background-size: cover;
   margin: 0 auto;
   max-width: 90vw;
